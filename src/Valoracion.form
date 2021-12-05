@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Valoracion">
+  <grid id="27dc6" binding="valoracionPanel" layout-manager="GridLayoutManager" row-count="19" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="866" height="485"/>
+    </constraints>
+    <properties>
+      <background color="-144671"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9474a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <text value="Informacion Personal "/>
+        </properties>
+      </component>
+      <component id="54ac0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="28" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Valoracion de Paciente"/>
+        </properties>
+      </component>
+      <component id="702b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <text value="Seleccione Prioridad"/>
+        </properties>
+      </component>
+      <component id="528ff" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Alta"/>
+            <item value="Media"/>
+            <item value="Baja"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6ab0b" class="javax.swing.JFormattedTextField" binding="formattedTextField1" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="8" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="df09f" class="javax.swing.JButton" binding="finaizarButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <text value="Actualizar"/>
+        </properties>
+      </component>
+      <component id="90421" class="javax.swing.JButton" binding="volverButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <text value="Volver"/>
+        </properties>
+      </component>
+      <component id="ee957" class="javax.swing.JButton" binding="siguienteButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Lucida Sans Typewriter" size="15"/>
+          <foreground color="-16777216"/>
+          <text value="Siguiente"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
